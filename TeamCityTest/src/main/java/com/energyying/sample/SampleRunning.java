@@ -7,6 +7,9 @@ public class SampleRunning {
 
     public int getInt(Long id){
         if(id!=null){
+            if(id == 1){
+                return 10;
+            }
             return id.intValue();
         }else{
             return 0;

@@ -15,7 +15,7 @@ public class SampleRunningTest {
 
         int i = sampleRunning.getInt(1L);
 
-        assertEquals(1,i);
+        assertEquals(10,i);
 
     }
 
