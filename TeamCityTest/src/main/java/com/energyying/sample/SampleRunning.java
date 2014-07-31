@@ -15,5 +15,4 @@ public class SampleRunning {
             return 0;
         }
     }
-
 }
