@@ -29,4 +29,15 @@ public class SampleRunningTest {
         assertEquals(0,i);
 
     }
+
+    @Test
+    public void doTest_1(){
+
+        SampleRunning sampleRunning = new SampleRunning();
+
+        int i = sampleRunning.getInt(2L);
+
+        assertEquals(1,i);
+
+    }
 }
