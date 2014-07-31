@@ -10,7 +10,6 @@ public class SampleRunning {
             if(id == 1){
                 return 10;
             }
-            id = 100L;
             return id.intValue();
         }else{
             return 0;
