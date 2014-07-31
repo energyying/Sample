@@ -37,7 +37,7 @@ public class SampleRunningTest {
 
         int i = sampleRunning.getInt(2L);
 
-        assertEquals(1,i);
+        assertEquals(2,i);
 
     }
 }
